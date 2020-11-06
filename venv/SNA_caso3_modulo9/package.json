@@ -1,0 +1,11 @@
+{
+  "name": "SNA_caso3_modulo9",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "credetials": {"access_token": "894108395049029633-xYZekOlsEx7vjTyZrq7SOBhU71pZkXd",
+                  "acees_token_secret": "8VgS155RipQs2o990tYI91MCM7QDxipVfrItOuVVieIWk",
+                  "API_key": "a0J9aPB5sYN4sA9tmvkumr6EG",
+                  "API_key_secret": "rzhI8ZPocGXeMrY14JjukBpgjiNZH8IbFXDqTuobxpmiH6xhX3"}
+}
