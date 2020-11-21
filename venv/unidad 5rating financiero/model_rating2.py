@@ -36,6 +36,7 @@ print("Number of columns of the dataset",len(list_of_fields))
 for fieldname in df.columns.values:
     df[fieldname]= df[fieldname].fillna(0)
 print("Filling 0 , NA values: ")
+print(df)
 
 
 #MISSING DATA TO CHECK MISSING DATA
@@ -118,8 +119,6 @@ y = df[output_var]
 
 #Missing data for new columns:
 
-
-
 print("----------------------------X---------------------------")
 print(X)
 
@@ -138,9 +137,8 @@ except np.linalg.linalg.LinAlgError as err:
 df['pred'] = y_pred
 #
 
-#
-# #%%
-#
+
+
 # SAVING TO EXCEL ALL PREDICTED  DATA!
-# df.to_excel("yahoo_ticker_sample_scraped_grouped_predicted.xlsx")
-# print (df)
+df.to_excel("yahoo_ticker_sample_scraped_grouped_predicted.xlsx")
+print (df)
